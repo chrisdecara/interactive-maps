@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+    }
+    * {
+    box-sizing: inherit;
+    }
+
+body {
+    text-align: center;
+    background-color: #C6EDCA;
+    margin-bottom: 2rem;
+    font-family: "Mulish", Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 3rem 0;
+    font-family: "Libre Baskerville", "Times New Roman", serif;
+}
+
+#byline {
+    font-size: 1.2em;
+    margin: 1.4rem 0;
+}
+
+#description {
+    max-width: 50ch;
+    margin: auto;
+    font-size: 1.1em;
+    background-color: #fff;
+    padding: 1em;
+}
+
+#mapid {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#mapcontainer {
+    max-width: 900px;
+    margin: auto;
+    padding: 1em;
+    background-color: #47B051;
+}
+
+@media screen and (max-width: 630px) {
+    body {
+        margin: 0 .5em .5em .5em;
+    }
+
+    h1 {
+        font-size: 2.2em;
+        margin: 1em 0;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    #mapcontainer {
+        padding: 0;
+    }
+}
